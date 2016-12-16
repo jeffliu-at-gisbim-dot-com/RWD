@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+			body{
+				margin:0;
+				font-family:Verdana, Geneva, sans-serif, 微軟正黑體;
+				background:#dedede;
+				-webkit-text-size-adjust:none;
+			}
+
+			.layout{
+				width:1000px;
+				margin:0 auto;
+				background:#FFF;
+			}
+			.logo{
+				padding:25px 0 18px 25px;
+				background:url(/OCWeb/images/login/cathay_inslog04.gif) bottom repeat-x;
+			}
+			.login{
+				background:url(/OCWeb/images/login/cathay_inslog14.gif) bottom repeat-x #14a83b;
+				height:350px;
+			}
+			.login .kv{ float:left; background:url(/OCWeb/images/login/cathay_inslog05bg.gif) no-repeat; padding:18px 19px 14px 37px}
+			.login .ff{ float:left; text-align:left;}
+			.login .ff .tit{ margin:50px 0 0 18px;}
+			.login .ff .main{
+				background:url(/OCWeb/images/login/cathay_inslog13.gif) left no-repeat;
+				width:210px;
+				height:82px;
+				margin:35px 0 0 60px;
+				float:left;
+			}
+			.login .ff .bb01{ float:left; margin-top:35px;}
+			.login .ff .main input{ margin:9px 0 8px 45px; height:12px; width:145px;*margin:8px 0 8px 45px;}
+			.mentit{
+				margin:20px 10px 25px 10px;
+			}
+			.bb02{ padding:35px 0 0 70px;}
+			.bb02 span{ padding: 0 10px;}
+
+			.ser .infocont{ float:left; width:225px; padding:0 8px;}
+			.serpic{ float:left; padding:0 4px ; width:90px; padding:5px 0 0 15px;}
+			.sertxt{ float:left; width:118px; padding-top:5px; }
+			.sertxt p{ color:#14a83b; font-size:15px; font-weight:bold; padding:0 0 5px 0; margin:0;}
+			.sertxt span{ color: #666; font-size:12px; line-height:16px;}
+			.ser .line{ float:left;}
+
+			.line1{ background:url(/OCWeb/images/login/cathay_inslog20.gif) repeat-x; width:960px ; margin:25px 10px 10px 10px; height:10px;}
+			.footer{
+				background:url(/OCWeb/images/login/cathay_inslog21.gif) bottom repeat-x;
+				height:75px;
+			}
+			.footer .logos{
+				padding:5px 15px;
+				float:left;
+			}
+			.footer .smtxt{
+				font-size:11px;
+				color:#999;
+				float:left;
+				padding-top:8px;
+			}
+			.footer .fb a{
+				text-decoration:none;
+				font-size:11px;
+				color:#4d6ba5;
+				margin:15px 15px 0 0;
+				float:right;
+			}
+			.footer .fb a:hover{
+				text-decoration: underline;
+			}
